@@ -1,0 +1,47 @@
+ALGORITHM task1
+
+VAR
+Sentence:STRING;
+count:INTEGER:=0;
+words:INTEGER:=1;
+voy:integer:=0;
+i:integer:=0;
+BEGIN
+read (Sentence)
+for i from 0 to Sentence.length step 1 do 
+if(Sentence[i]!=" "):
+count+=1
+if(Sentence[i]=== "a" or"A" or "e" or "E" , "I" or "i" or "o" or "O" or "U" or "u"):
+voy+=1
+if(Sentence[i]===" "):
+words+=1
+END for
+write("the numbers blanks is",count)
+write("the numbers is",words)
+write("the numbers of vowels is",voy)
+
+END
+ALGORITHM task 2 
+VAR
+set1,set2:Array numbers
+    sum:Integer:=0
+    i:integer:=0
+    j:integer:=0
+BEGIN
+    for i from 0 to set1.length step 1 do 
+    for j from 0 to set2.length step 1 do 
+    if set1[i]===set2[j]
+    than sum1:=sum+set1[i]
+    sum:=sum1
+    end if 
+    end for
+     for i from 0 to set1.length step 1 do 
+    for j from 0 to set2.length step 1 do 
+    if set2[i]===set1[j]
+    than sum2:=sum+set2[i]
+    sum:=sum2
+    end if 
+    end for
+    write("the sum of numbers is =",sum)
+END
+o(n2)
