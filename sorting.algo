@@ -19,8 +19,8 @@ find:BOOLEAN:=false
 i:integer
 BEGIN
 FOR i from 0 to str.length step 1 do 
-procedure SEARCH
-IF (find===true) 
+SEARCH(c,str)
+IF (find) 
 str[i]:=str[i+1]
 END IF 
 END FOR
@@ -29,7 +29,7 @@ procedure DELETE_ALL(c,str)
 i:integer
 BEGIN
 FOR i from 0 to str.length step 1 do 
-procedure delete
+ delete(c,str)
 i=i+1
 END FOR
 END
