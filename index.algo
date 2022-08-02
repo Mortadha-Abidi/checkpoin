@@ -28,6 +28,8 @@ set1,set2:Array numbers
     i:integer:=0
     j:integer:=0
 BEGIN
+read(set1)
+read(set2)
     for i from 0 to set1.length step 1 do 
     for j from 0 to set2.length step 1 do 
     if set1[i]===set2[j]
@@ -44,4 +46,4 @@ BEGIN
     end for
     write("the sum of numbers is =",sum)
 END
-o(n2)
+o(n2) 
