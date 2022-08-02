@@ -1,0 +1,35 @@
+
+
+procedure search(c,str)
+find:BOOLEAN:=false
+pos:integer:=0
+i:integer
+BEGIN
+FOR i from 0 to str.length step 1 do 
+IF(c===str[i])
+than
+find:=true
+pos:=i
+END IF 
+i=i+1
+END FOR
+END
+procedure delete(c,str)
+find:BOOLEAN:=false
+i:integer
+BEGIN
+FOR i from 0 to str.length step 1 do 
+procedure SEARCH
+IF (find===true) 
+str[i]:=str[i+1]
+END IF 
+END FOR
+END
+procedure DELETE_ALL(c,str)
+i:integer
+BEGIN
+FOR i from 0 to str.length step 1 do 
+procedure delete
+i=i+1
+END FOR
+END
