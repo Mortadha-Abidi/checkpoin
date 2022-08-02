@@ -33,15 +33,15 @@ read(set2)
     for i from 0 to set1.length step 1 do 
     for j from 0 to set2.length step 1 do 
     if set1[i]===set2[j]
-    than sum1:=sum+set1[i]
-    sum:=sum1
+    than 
+    sum:=sum+set1[i]
     end if 
     end for
      for i from 0 to set1.length step 1 do 
     for j from 0 to set2.length step 1 do 
     if set2[i]===set1[j]
-    than sum2:=sum+set2[i]
-    sum:=sum2
+    than 
+    sum:=sum+set2[i]
     end if 
     end for
     write("the sum of numbers is =",sum)
